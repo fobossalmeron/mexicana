@@ -14,7 +14,7 @@ class NoLimitSection extends Component {
         <p>
           <span>challenge:</span>
           <br />
-          Converting a national airline and regaining trust and loyalty.
+          Reinventing Mexico's national airline; - regaining trust and loyalty.
           <br />
           <br />
           <span>solution:</span>
