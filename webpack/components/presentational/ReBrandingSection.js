@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import OldMexicanaIcon from "svg-react-loader?name=OldMexicanaIcon!../../../assets/img/layout/oldMexicana.svg";
 import NewMexicanaIcon from "svg-react-loader?name=NewMexicanaIcon!../../../assets/img/layout/newMexicana.svg";
 import MexicanaClickIcon from "svg-react-loader?name=MexicanaClickIcon!../../../assets/img/layout/mexicanaClick.svg";
@@ -23,9 +23,11 @@ import Texture2 from "svg-react-loader?name=Texture2!../../../assets/img/layout/
 import Texture3 from "svg-react-loader?name=Texture3!../../../assets/img/layout/texture3.svg";
 import Texture4 from "svg-react-loader?name=Texture4!../../../assets/img/layout/texture4.svg";
 import Graphic3 from "svg-react-loader?name=Graphic3!../../../assets/img/layout/graphic3.svg";
+import Graphic3mobile from "svg-react-loader?name=Graphic3mobile!../../../assets/img/layout/graphic3mobile.svg";
+
 
 class ReBrandingSection extends Component {
-  render() {
+  render (){
     return (
       <section id="rebranding">
         <div className="whiteRebranding">
@@ -91,7 +93,7 @@ class ReBrandingSection extends Component {
         </div>
         <div className="quote">
           <p>
-            Mexicana’s new icon is<br/> an international masterpiece
+            Mexicana’s new icon is an international masterpiece
           </p>
           <h4>Eduardo Nieto Ituarte</h4>
           <h5>
@@ -106,11 +108,11 @@ class ReBrandingSection extends Component {
         </div>
         <div className="encapsulator">
         <h3>project timeline</h3>
-        <Graphic3 />
+        <Graphic3 className="desktop" />
+        <Graphic3mobile className="mobile" />
         </div>
       </section>
-    );
-  }
+    );}
 }
 
 export default ReBrandingSection;

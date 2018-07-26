@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Nav from "./Nav";
-import Modal from "react-modal";
 import HomeSection from "./presentational/HomeSection";
 import NoLimitSection from "./presentational/NoLimitSection";
 import BrandSection from "./presentational/BrandSection";
@@ -15,21 +14,10 @@ class App extends Component {
     super(props);
     this.state = {
       menuOn: false,
-      modalOpen: false,
       maintenance: false
     };
     this.quitMaintenance = this.quitMaintenance.bind(this);
     this.initScrollMagic = this.initScrollMagic.bind(this);
-    this.openModal = this.openModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
-  }
-
-  openModal() {
-    this.setState({ modalOpen: true });
-  }
-
-  closeModal() {
-    this.setState({ modalOpen: false });
   }
 
   toggleMenu() {
@@ -61,9 +49,7 @@ class App extends Component {
   render() {
     var maintenanceScreen = (
       <div className="loading">
-        <h2 className="blue">we're</h2>
-        <h2 className="yellow">redesigning</h2>
-        <h2 className="pink">ourselves</h2>
+          site in maintenance
         <button onClick={this.quitMaintenance}>quit</button>
       </div>
     );
@@ -73,7 +59,6 @@ class App extends Component {
           toggleMenu={this.toggleMenu.bind(this)}
           hideNav={this.hideNav.bind(this)}
           menuOn={this.state.menuOn}
-          closeModal={this.closeModal.bind(this)}
           scrollToHome={() =>
             scrollToComponent(this.Home, { offset: 0, align: "top" })
           }
@@ -120,9 +105,6 @@ class App extends Component {
           ref={section => {
             this.Process = section;
           }}
-          modalOpen={this.state.modalOpen}
-          openModal={this.openModal.bind(this)}
-          closeModal={this.closeModal.bind(this)}
         />
         <OportunitySection
           ref={section => {

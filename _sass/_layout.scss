@@ -264,9 +264,9 @@ h3 {
 }
 
 .quote {
-    padding: 20px 11% 2px 13%;
     margin: 8% 0;
-    max-width: 1600px;
+    max-width: 850px;
+    width: 100%;
     align-self: center;
     p {
         quotes: "“" "”" "‘" "’";
@@ -309,7 +309,7 @@ h3 {
 .fullVideo,
 .halfVideo {
     width: 100% !important;
-    height: 0;
+    height: 0 !important;
     padding-bottom: 56.6%;
     display: flex;
     position: relative;
@@ -519,4 +519,11 @@ h3 {
             grid-column: 2 / span 2;
         }
     }
+}
+
+.desktop{
+    display: flex;
+}
+.mobile{
+    display:none;
 }

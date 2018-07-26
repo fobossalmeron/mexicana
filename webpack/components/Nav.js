@@ -26,7 +26,7 @@ class Nav extends Component {
     function touchmove(e) {
       e.preventDefault();
     }
-    this.props.closeModal();
+    
   }
 
   doHideNav() {
@@ -34,7 +34,7 @@ class Nav extends Component {
     document.body.classList.remove("restrictBody");
     document.removeEventListener("touchstart", this.touchstart);
     document.removeEventListener("touchmove", this.touchmove);
-    this.props.closeModal();
+    
   }
 
   componentDidMount() {
@@ -46,7 +46,7 @@ class Nav extends Component {
   }
 
   doScrollToHome() {
-    this.props.closeModal();
+    
     if (typeof this.props.scrollToHome !== "undefined") {
       event.preventDefault();
       this.props.scrollToHome();
@@ -57,7 +57,7 @@ class Nav extends Component {
   }
 
   doScrollToNoLimit() {
-    this.props.closeModal();
+    
     if (typeof this.props.scrollToNoLimit !== "undefined") {
       event.preventDefault();
       this.props.scrollToNoLimit();
@@ -68,7 +68,7 @@ class Nav extends Component {
   }
 
   doScrollToBrand() {
-    this.props.closeModal();
+    
     if (typeof this.props.scrollToBrand !== "undefined") {
       event.preventDefault();
       this.props.scrollToBrand();
@@ -79,7 +79,7 @@ class Nav extends Component {
   }
 
   doScrollToReBranding() {
-    this.props.closeModal();
+    
     if (typeof this.props.scrollToReBranding !== "undefined") {
       event.preventDefault();
       this.props.scrollToReBranding();
@@ -90,7 +90,7 @@ class Nav extends Component {
   }
 
   doScrollToProcess() {
-    this.props.closeModal();
+    
     
     if (typeof this.props.scrollToProcess !== "undefined") {
       event.preventDefault();
@@ -102,7 +102,7 @@ class Nav extends Component {
   }
 
   doScrollToOportunity() {
-    this.props.closeModal();
+    
     
     if (typeof this.props.scrollToOportunity !== "undefined") {
       event.preventDefault();
@@ -114,7 +114,7 @@ class Nav extends Component {
   }
 
   doScrollToEngage() {
-    this.props.closeModal();
+    
     
     if (typeof this.props.scrollToEngage !== "undefined") {
       event.preventDefault();
