@@ -1,32 +1,17 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1492 561.2" style="enable-background:new 0 0 1492 561.2;" xml:space="preserve">
-<style type="text/css">
-	.lines{fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;}
-	.txt{font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-    fill: #00A7E1;
-    font-weight: 600;}
-</style>
-<path fill="#00A7E1" d="M500,161C416.9,48.4,343.3,0.6,183.9,0.6L6.2,1.1l363.4,476.6c47.6,62.4,92.9,81.5,190.4,81.5h233.9L500,161z"
-	/>
-<line class="lines" x1="143.5" y1="181.1" x2="1029.4" y2="181.1"/>
-<line class="lines" x1="215.5" y1="275.9" x2="1101.4" y2="275.9"/>
-<line class="lines" x1="291.5" y1="370.8" x2="1177.4" y2="370.8"/>
-<line class="lines" x1="361.5" y1="465.6" x2="1247.4" y2="465.6"/>
-<line class="lines" x1="72.5" y1="86.6" x2="958.4" y2="86.6"/>
-
-	<text transform="matrix(1 0 0 1 978.9874 86.1154)" class="txt">core essence</text>
-
-
-	<text transform="matrix(1 0 0 1 1049.9874 181.1154)" class="txt">brand personality</text>
-
-
-	<text transform="matrix(1 0 0 1 1113.9874 276.1154)" class="txt">emotional benefit</text>
-
-
-	<text transform="matrix(1 0 0 1 1188.9874 371.1154)" class="txt">functional benefit</text>
-
-
-	<text transform="matrix(1 0 0 1 1265.9874 466.1154)" class="txt">product attribute</text>
-
+<path style="fill:#00A7E1;" d="M500,161C416.9,48.4,343.3,0.6,183.9,0.6L6.2,1.1l363.4,476.6c47.6,62.4,92.9,81.5,190.4,81.5h233.9
+	L500,161z"/>
+<line style="fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;" x1="143.5" y1="181.1" x2="1029.4" y2="181.1"/>
+<line style="fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;" x1="215.5" y1="275.9" x2="1101.4" y2="275.9"/>
+<line style="fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;" x1="291.5" y1="370.8" x2="1177.4" y2="370.8"/>
+<line style="fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;" x1="361.5" y1="465.6" x2="1247.4" y2="465.6"/>
+<line style="fill:none;stroke:#FFFFFF;stroke-width:0.9442;stroke-miterlimit:10;" x1="72.5" y1="86.6" x2="958.4" y2="86.6"/>
+<text transform="matrix(1 0 0 1 978.9874 86.1154)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight: 600;  font-size:30px;">core essence</text>
+<text transform="matrix(1 0 0 1 1049.9874 181.1154)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight: 600;  font-size:30px;">brand personality</text>
+<text transform="matrix(1 0 0 1 1113.9874 276.1154)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight: 600;  font-size:30px;">emotional benefit</text>
+<text transform="matrix(1 0 0 1 1188.9874 371.1154)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight: 600;  font-size:30px;">functional benefit</text>
+<text transform="matrix(1 0 0 1 1265.9874 466.1154)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight: 600;  font-size:30px;">product attribute</text>
 </svg>
