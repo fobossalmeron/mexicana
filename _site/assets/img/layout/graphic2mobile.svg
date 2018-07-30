@@ -11,7 +11,8 @@
 	</g>
 	<g>
 		<g>
-			<path style="fill:#002A3A;" d="M257.8,292.2l27.1,0c2.4,0,3.4,0.6,4.7,2.4l6,8.2C295.7,302.8,285,295.2,257.8,292.2"/>
+			<path style="fill:#002A3A;" d="M257.8,292.2l27.1,0c2.4,0,3.
+			4,0.6,4.7,2.4l6,8.2C295.7,302.8,285,295.2,257.8,292.2"/>
 		</g>
 		<g>
 			<path style="fill:#00A7E1;" d="M392.1,356.1h-36.5c-15.2,0-22.3-3-29.7-12.7l-26.6-34.9h17.1c16.3,0,25.5,8,25.5,8l-14-19.1
@@ -39,18 +40,18 @@
 	</g>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 292.7507 221.0839)" style="fill:#00A7E1; font-family:'TitilliumWeb-Bold'; font-size:30px;">[1]</text>
+	<text transform="matrix(1 0 0 1 292.7507 221.0839)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight:600; font-size:30px;">[1]</text>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 143.5339 250.996)" style="fill:#00A7E1; font-family:'TitilliumWeb-Bold'; font-size:30px;">[2]</text>
+	<text transform="matrix(1 0 0 1 143.5339 250.996)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight:600; font-size:30px;">[2]</text>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 87.6237 404.7265)" style="fill:#00A7E1; font-family:'TitilliumWeb-Bold'; font-size:30px;">[3]</text>
+	<text transform="matrix(1 0 0 1 87.6237 404.7265)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight:600; font-size:30px;">[3]</text>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 292.7507 603.8534)" style="fill:#00A7E1; font-family:'TitilliumWeb-Bold'; font-size:30px;">[4]</text>
+	<text transform="matrix(1 0 0 1 292.7507 603.8534)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight:600; font-size:30px;">[4]</text>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 292.7507 662.3339)" style="fill:#00A7E1; font-family:'TitilliumWeb-Bold'; font-size:30px;">[5]</text>
+	<text transform="matrix(1 0 0 1 292.7507 662.3339)" style="fill:#00A7E1; font-family:'Titillium Web', sans-serif; font-weight:600; font-size:30px;">[5]</text>
 </g>
 </svg>

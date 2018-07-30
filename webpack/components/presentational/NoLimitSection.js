@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
-import SkyLimit from "svg-react-loader?name=SkyLimit!../../../assets/img/layout/skyLimit.svg";
-import BrandPositioning from "svg-react-loader?name=BrandPositioning!../../../assets/img/layout/brandPositioning.svg";
+import SkyLimit from "./../../../assets/img/layout/skyLimit.svg";
+import BrandPositioning from "./../../../assets/img/layout/brandPositioning.svg";
 
 class NoLimitSection extends Component {
   render() {

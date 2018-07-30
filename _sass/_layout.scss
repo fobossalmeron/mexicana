@@ -39,7 +39,7 @@ header {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         nav ul {
-            max-width: 440px;
+            max-width: 480px;
         }
         a {
             transition: 0.3s ease all;
@@ -336,6 +336,7 @@ h3 {
         grid-template-columns: 1fr 1.5fr;
         grid-gap: 8%;
         margin-top: 8%;
+        align-content: flex-start;
         p {
             max-width: 450px;
             margin-top: 10px;

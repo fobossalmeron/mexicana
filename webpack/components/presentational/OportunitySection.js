@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import Graphic6 from "svg-react-loader?name=Graphic6!./../../../assets/img/layout/graphic6.svg";
-import Graphic7 from "svg-react-loader?name=Graphic7!./../../../assets/img/layout/graphic7.svg";
+import Graphic6 from "./../../../assets/img/layout/graphic6.svg";
+import Graphic7 from "./../../../assets/img/layout/graphic7.svg";
 
 class OportunitySection extends Component {
   render() {

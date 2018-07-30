@@ -1,11 +1,12 @@
 ---
-title: 'mexicana'
+title: 'Reinventing an airline from a-to-z. A design:success case story'
 timezone: UTC
 email: success@designsuccess.com
-description: Mexicana
-og_image: "/assets/img/og_image.jpg"
-baseurl: 
-url: http://designsuccess.com/mexicana/
+description: 'design:success case story: Reinventing Mexico’s national airline from A-
+to-Z. Growing loyalty from 54% to 88%! The sky has no limits.'
+og_image: '/assets/img/og_image.jpg'
+keywords: 'design:success case story: Reinventing Mexico’s national airline from A-to-Z. Growing loyalty from 54% to 88%! The sky has no limits.'
+url: http://designsuccess.com/mexicana
 markdown: kramdown
 plugins:
 - jekyll-feed

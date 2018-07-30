@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Graphic1 from "svg-react-loader?name=Graphic1!../../../assets/img/layout/graphic1.svg";
-import Graphic1mobile from "svg-react-loader?name=Graphic1mobile!../../../assets/img/layout/graphic1mobile.svg";
-import Graphic2 from "svg-react-loader?name=Graphic2!../../../assets/img/layout/graphic2.svg";
-import Graphic2mobile from "svg-react-loader?name=Graphic2mobile!../../../assets/img/layout/graphic2mobile.svg";
-import BrandPyramid from "svg-react-loader?name=BrandPyramid!../../../assets/img/layout/brandPyramid.svg";
+import Graphic1 from "./../../../assets/img/layout/graphic1.svg";
+import Graphic1mobile from "./../../../assets/img/layout/graphic1mobile.svg";
+import Graphic2 from "./../../../assets/img/layout/graphic2.svg";
+import Graphic2mobile from "./../../../assets/img/layout/graphic2mobile.svg";
+import BrandPyramid from "./../../../assets/img/layout/brandPyramid.svg";
 
 class BrandSection extends Component {
   render() {

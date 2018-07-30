@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import Graphic4 from "svg-react-loader?name=Graphic4!./../../../assets/img/layout/graphic4.svg";
-import Graphic5 from "svg-react-loader?name=Graphic5!./../../../assets/img/layout/graphic5.svg";
+import Graphic4 from "./../../../assets/img/layout/graphic4.svg";
+import Graphic5 from "./../../../assets/img/layout/graphic5.svg";
 
 class ProcessSection extends Component {
   render() {
