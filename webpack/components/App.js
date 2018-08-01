@@ -14,7 +14,7 @@ class App extends Component {
     super(props);
     this.state = {
       menuOn: false,
-      maintenance: false
+      maintenance: true
     };
     this.quitMaintenance = this.quitMaintenance.bind(this);
     this.initScrollMagic = this.initScrollMagic.bind(this);
@@ -49,7 +49,8 @@ class App extends Component {
   render() {
     var maintenanceScreen = (
       <div className="loading">
-          site in maintenance
+          <h3>case: mexicana</h3>
+          <h2>website under construction</h2>
         <button onClick={this.quitMaintenance}>quit</button>
       </div>
     );
