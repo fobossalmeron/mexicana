@@ -14,7 +14,7 @@ class App extends Component {
     super(props);
     this.state = {
       menuOn: false,
-      maintenance: true
+      maintenance: false
     };
     this.quitMaintenance = this.quitMaintenance.bind(this);
     this.initScrollMagic = this.initScrollMagic.bind(this);
