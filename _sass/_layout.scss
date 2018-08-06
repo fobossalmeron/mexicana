@@ -365,6 +365,10 @@ h3 {
         grid-template-columns: 1fr 1.5fr;
         grid-gap: 2%;
         margin-top: 8%;
+        &.mobile{
+            margin-top: 0%;
+            display: none;
+        }
         span {
             color: $brand-main-color;
             font-weight: 600;
@@ -378,7 +382,7 @@ h3 {
         }
     }
     svg:nth-of-type(2) {
-        width: 110%;
+        width: 100%;
         margin-top: 12%;
     }
 }
@@ -524,9 +528,25 @@ h3 {
     }
 }
 
-.desktop{
+.desktop {
     display: flex;
 }
-.mobile{
-    display:none;
+
+.mobile {
+    display: none;
+}
+
+.rippleM {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    min-width: 1000px;
+    min-height: 830px;
+    margin-top:5%;
+    &.desktop {
+        display: flex;
+    }
+    &.mobile {
+        display: none;
+    }
 }

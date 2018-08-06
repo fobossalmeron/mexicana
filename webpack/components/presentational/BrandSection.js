@@ -39,8 +39,8 @@ class BrandSection extends Component {
             <br />Mexicana is an icon & an eagle. An eagle is Mexico.
           </p>
         </div>
-        <Graphic2 className="desktop" />
-        <Graphic2mobile className="mobile" />
+        <Graphic2 className="rippleM desktop" />
+        <Graphic2mobile className="rippleM mobile" />
         <div className="twoColumned mobile">
           <p>
             <span>[1] brandcore</span>

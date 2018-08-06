@@ -89,6 +89,18 @@
 }
 
 @include media-query(1100px) {
+    .rippleM {
+        min-width: 0px;
+        max-width: 500px;
+        min-height: auto;
+        margin-top: 0;
+        &.desktop {
+            display: none;
+        }
+        &.mobile {
+            display: flex;
+        }
+    }
     .sectionContainer {
         .sectionList .section {
             min-height: 280px;
@@ -153,9 +165,22 @@
             }
         }
     }
+    #brand .twoColumned.mobile {
+        display: block;
+    }
 }
 
 @include media-query(1000px) {
+    .encapsulator svg {
+        padding: 0 4%;
+        &.mobile {
+            display: flex;
+            max-width: 500px;
+            align-self: center;
+            margin: 0 auto;
+            justify-self: center;
+        }
+    }
     #no-limit {
         h2 {
             padding: 0;
@@ -272,15 +297,11 @@
         border-width: 1px 0 1px 0;
         margin: 12% 0;
     }
-    .encapsulator svg {
-        padding: 0 4%;
-    }
     .desktop {
         display: none;
     }
     .mobile {
         display: flex;
-        max-width: 100%;
     }
     section {
         padding: 8% 4% 2% 4%;
@@ -545,12 +566,12 @@
         }
     }
     #contact .locationContact {
-        ul{
+        ul {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             justify-items: center;
-            li{
-               background-color: black;
+            li {
+                background-color: black;
             }
         }
         &~.locationContact p {
