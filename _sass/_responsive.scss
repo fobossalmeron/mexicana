@@ -585,6 +585,9 @@
 }
 
 @include media-query(400px) {
+    #contact .locationMap {
+        min-width: 470px;
+    }
     .processContainer .process {
         .processIcon {
             transform: translateY(-50%);
