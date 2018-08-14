@@ -273,6 +273,11 @@
             }
         }
     }
+    #process {
+        .mobile{
+            display: flex;
+        }
+    }
     #rebranding {
         .quote {
             margin: 10% 5%;

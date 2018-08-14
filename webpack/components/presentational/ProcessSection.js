@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Graphic4 from "./../../../assets/img/layout/graphic4.svg";
 import Graphic5 from "./../../../assets/img/layout/graphic5.svg";
+import Graphic5Mobile from "./../../../assets/img/layout/graphic5mobile.svg";
 
 class ProcessSection extends Component {
   render() {
@@ -97,7 +98,8 @@ class ProcessSection extends Component {
         <h3>the four pillars</h3>
         <Graphic4 />
         <h3>brand umbrella</h3>
-        <Graphic5 />
+        <Graphic5 className="desktop"/>
+        <Graphic5Mobile className="mobile"/>
       </section>
     );
   }
